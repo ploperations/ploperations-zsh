@@ -1,6 +1,6 @@
+# default parameter values
 class zsh::params {
-
-  case $::kernel {
+  case $facts['kernel'] {
     'Linux': {
       $zshpackage = 'zsh'
       $zshpath    = '/usr/bin/zsh'
@@ -12,6 +12,9 @@ class zsh::params {
     'SunOS': {
       $zshpackage = 'shell/zsh'
       $zshpath    = '/usr/bin/zsh'
+    }
+    default: {
+      fail("${facts['kernel']} not supported by this module")
     }
   }
 }
