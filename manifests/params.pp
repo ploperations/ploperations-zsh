@@ -1,4 +1,6 @@
-# default parameter values
+# @summary Default parameter values
+#
+# Default parameter values
 class zsh::params {
   case $facts['kernel'] {
     'Linux': {
