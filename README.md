@@ -1,5 +1,10 @@
 # zsh
 
+![](https://img.shields.io/puppetforge/pdk-version/ploperations/zsh.svg?style=popout)
+![](https://img.shields.io/puppetforge/v/ploperations/zsh.svg?style=popout)
+![](https://img.shields.io/puppetforge/dt/ploperations/zsh.svg?style=popout)
+[![Build Status](https://travis-ci.org/ploperations/ploperations-zsh.svg?branch=master)](https://travis-ci.org/ploperations/ploperations-zsh)
+
 The zsh module takes care of installing zsh on various platforms.
 
 ## Usage
