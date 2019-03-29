@@ -22,6 +22,12 @@ This module is documented via
 `pdk bundle exec puppet strings generate --format markdown`.
 Please see [REFERENCE.md](REFERENCE.md) for more info.
 
+## Changelog
+
+[CHANGELOG.md](CHANGELOG.md) is generated prior to each release via
+`pdk bundle exec rake changelog`. This proecss relies on labels that are applied
+to each pull request.
+
 ## Contributing
 
 Pull requests are welcome!
